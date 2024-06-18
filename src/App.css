@@ -1,6 +1,90 @@
-html, body, :root{
-  height: 100%;
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: "Sansita";
+  src: url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.eot");
+  src: url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.svg#Sansita")format("svg");
 }
 
+@font-face {
+  font-family: "Sansation";
+  src: url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.eot");
+  src: url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.svg#Sansation Bold")format("svg");
+}
+
+
+:root {
+  --primary-color: #0D2D4D;
+  --secondary-color: #13BBA4;
+  --passive-color : #FFF;
+  --primary-optional-color : #44149E;
+}
+
+html, body, :root{
+  height: 100svh;
+  margin: 0;
+  padding: 0;
+  font-family: "Sansita" !important;
+}
+
+h1, h2 {
+  font-family: "Sansation" !important;
+  color: var(--primary-color) !important;
+}
+
+.btn-dark {
+  background-color: var(--primary-color) !important;
+}
+
+header {
+  height: 80px;
+}
+
+.logo {
+  height: 100%;
+}
+
+header img {
+  height: 100%;
+  object-fit: contain;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav a:link, nav a {
+  text-decoration: none;
+  color: var(--primary-color) !important;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.navbar {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+a.active {
+  color: #11fe9f !important;
+}
+
+a.active > button {
+  background-color: var(--primary-optional-color) !important;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--passive-color);
+  font-family: "Sansation" !important;
+}
