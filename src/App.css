@@ -33,9 +33,14 @@ html, body, :root{
   font-family: "Sansita" !important;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
+  text-align: center !important;
   font-family: "Sansation" !important;
   color: var(--primary-color) !important;
+}
+
+.social-media h5 {
+  text-align: center !important;
 }
 
 .btn-dark {
@@ -44,15 +49,6 @@ h1, h2 {
 
 header {
   height: 80px;
-}
-
-.logo {
-  height: 100%;
-}
-
-header img {
-  height: 100%;
-  object-fit: contain;
 }
 
 nav ul{
@@ -70,11 +66,6 @@ nav li {
   flex-shrink: 0;
 }
 
-.navbar {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
 a.active {
   color: #11fe9f !important;
 }
@@ -83,8 +74,16 @@ a.active > button {
   background-color: var(--primary-optional-color) !important;
 }
 
-footer {
+footer {height: 227px;}
+
+footer, footer a:link, footer a {
   background-color: var(--primary-color);
-  color: var(--passive-color);
+  color: var(--passive-color) !important;
+  text-decoration: none;
   font-family: "Sansation" !important;
+}
+
+.social-media ul, .contact-address ul{
+  list-style-type: none;
+  color: #ffffffb9 !important;
 }

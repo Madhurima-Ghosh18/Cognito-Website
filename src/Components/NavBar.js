@@ -6,10 +6,10 @@ const NavBar = () => {
     const location = useLocation();
     return (
     <header className="d-flex px-3">
-        <div className="logo">
-            <img src="/logo.png" alt="logo"/>
+        <div className="logo h-100">
+            <img className="h-100 object-fit-contain" src="/logo.png" alt="logo"/>
         </div>
-        <div className="navbar w-100 d-flex justify-content-end align-items-center">
+        <div className="navbar w-100 d-flex justify-content-end align-items-center flex-grow-1 flex-shrink-1">
             <nav className="d-flex align-items-center">
                 <ul className="d-flex gap-4 justify-content-around mb-0">
                     <li><a className={location.pathname === "/home" ? "active": ""} href="/home">Home</a></li>
