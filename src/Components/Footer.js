@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="d-flex flex-wrap justify-content-around p-5">
+        <footer className="d-flex flex-wrap justify-content-around p-4 gap-1">
             <div className="quicklinks">
                 <h5>Quick Links</h5>
                 <ul>

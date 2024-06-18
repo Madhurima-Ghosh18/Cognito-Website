@@ -74,8 +74,6 @@ a.active > button {
   background-color: var(--primary-optional-color) !important;
 }
 
-footer {height: 227px;}
-
 footer, footer a:link, footer a {
   background-color: var(--primary-color);
   color: var(--passive-color) !important;
