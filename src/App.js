@@ -13,10 +13,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/Cognito-Website'>
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} >
-          <Route path="/" element={<Navigate to="/home"/>}/>
+          <Route index path="/" element={<Navigate to="/home"/>}/>
           <Route path="home" element={<Home />}/>
           <Route path="intro" element={<WhoWeAre />}/>
           <Route path="whatwedo" element={<WhatWeDo />}/>
