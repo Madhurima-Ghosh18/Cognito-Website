@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Cognito-Website/static/css/main.bdf421a2.css",
-    "main.js": "/Cognito-Website/static/js/main.cccf8ed9.js",
+    "main.js": "/Cognito-Website/static/js/main.da9a7d7b.js",
     "static/js/453.aeb2c939.chunk.js": "/Cognito-Website/static/js/453.aeb2c939.chunk.js",
     "index.html": "/Cognito-Website/index.html",
     "main.bdf421a2.css.map": "/Cognito-Website/static/css/main.bdf421a2.css.map",
-    "main.cccf8ed9.js.map": "/Cognito-Website/static/js/main.cccf8ed9.js.map",
+    "main.da9a7d7b.js.map": "/Cognito-Website/static/js/main.da9a7d7b.js.map",
     "453.aeb2c939.chunk.js.map": "/Cognito-Website/static/js/453.aeb2c939.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdf421a2.css",
-    "static/js/main.cccf8ed9.js"
+    "static/js/main.da9a7d7b.js"
   ]
 }
