@@ -18,7 +18,6 @@
   url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.svg#Sansation Bold")format("svg");
 }
 
-
 :root {
   --primary-color: #0D2D4D;
   --secondary-color: #13BBA4;
@@ -31,10 +30,11 @@ html, body, :root{
   margin: 0;
   padding: 0;
   font-family: "Sansita" !important;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
-  text-align: center !important;
+  text-align: center;
   font-family: "Sansation" !important;
   color: var(--primary-color) !important;
 }
@@ -47,6 +47,9 @@ hr {border-top: solid 0.5px var(--primary-color) !important; opacity: 1 !importa
 
 .btn-dark {
   background-color: var(--primary-color) !important;
+  font-family: "Sansation" !important;
+  padding-top: 10px !important;
+  height: 50px !important;
 }
 
 header {
@@ -86,4 +89,63 @@ footer, footer a:link, footer a {
 .social-media ul, .contact-address ul{
   list-style-type: none;
   color: #ffffffb9 !important;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll {
+  overflow-y: hidden;
+  height: 402px;
+}
+
+.scroll::-webkit-scrollbar{
+  width: 0px;
+}
+
+.banner button {
+  font-size: larger !important;
+}
+
+.card {
+  font-size: 16px !important;
+  border-radius: 20px !important;
+  height: 359px !important;
+  width: 331px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px grey;
+}
+
+.card .text-content {
+  padding: 10px 2px 2px 10px;
+  border-top-right-radius: 50px;
+  width: 100%;
+  height: 131px;
+  background-color: var(--passive-color);
+}
+
+.item {
+  width: 390px;
+}
+
+.eclipse {
+  height: 145%;
+  width: 70em;
+  background-color: var(--primary-optional-color);
+  clip-path: ellipse(50% 50%);
+  rotate: 16.58deg;
+  top: 0;
+  left: -100px;
+  z-index: -1;
+}
+
+#newsletter .form {
+  text-shadow: 
+  0 0 1.5px var(--passive-color),
+  0 0 1.5px var(--passive-color),
+  0 0 1.5px var(--passive-color),
+  0 0 1.5px var(--passive-color);
 }
