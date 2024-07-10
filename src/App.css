@@ -2,30 +2,32 @@
   font-family: "Sansita";
   src: url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.eot");
   src: url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.svg#Sansita")format("svg");
+    url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6ee9967c7338ffe1d14984038de23d9b.svg#Sansita")format("svg");
 }
 
 @font-face {
   font-family: "Sansation";
   src: url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.eot");
   src: url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.svg#Sansation Bold")format("svg");
+    url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a95ede42168248621cd7c0bcc5e9dd6c.svg#Sansation Bold")format("svg");
 }
 
 :root {
   --primary-color: #0D2D4D;
   --secondary-color: #13BBA4;
-  --passive-color : #FFF;
-  --primary-optional-color : #44149E;
+  --passive-color: #FFF;
+  --primary-optional-color: #44149E;
 }
 
-html, body, :root{
+html,
+body,
+:root {
   height: 100svh;
   margin: 0;
   padding: 0;
@@ -33,7 +35,10 @@ html, body, :root{
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
   font-family: "Sansation" !important;
   color: var(--primary-color) !important;
@@ -43,7 +48,10 @@ h1, h2, h3, h4 {
   text-align: center !important;
 }
 
-hr {border-top: solid 0.5px var(--primary-color) !important; opacity: 1 !important;}
+hr {
+  border-top: solid 0.5px var(--primary-color) !important;
+  opacity: 1 !important;
+}
 
 .btn-dark {
   background-color: var(--primary-color) !important;
@@ -56,11 +64,12 @@ header {
   height: 80px;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
 }
 
-nav a:link, nav a {
+nav a:link,
+nav a {
   text-decoration: none;
   color: var(--primary-color) !important;
 }
@@ -75,18 +84,21 @@ a.active {
   color: #11fe9f !important;
 }
 
-a.active > button {
+a.active>button {
   background-color: var(--primary-optional-color) !important;
 }
 
-footer, footer a:link, footer a {
+footer,
+footer a:link,
+footer a {
   background-color: var(--primary-color);
   color: var(--passive-color) !important;
   text-decoration: none;
   font-family: "Sansation" !important;
 }
 
-.social-media ul, .contact-address ul{
+.social-media ul,
+.contact-address ul {
   list-style-type: none;
   color: #ffffffb9 !important;
 }
@@ -100,9 +112,10 @@ footer, footer a:link, footer a {
 .scroll {
   overflow-y: hidden;
   height: 402px;
+  padding: 10px 5px;
 }
 
-.scroll::-webkit-scrollbar{
+.scroll::-webkit-scrollbar {
   width: 0px;
 }
 
@@ -143,9 +156,54 @@ footer, footer a:link, footer a {
 }
 
 #newsletter .form {
-  text-shadow: 
-  0 0 1.5px var(--passive-color),
-  0 0 1.5px var(--passive-color),
-  0 0 1.5px var(--passive-color),
-  0 0 1.5px var(--passive-color);
+  text-shadow:
+    -1px -1px 0 var(--passive-color),
+    1px -1px 0 var(--passive-color),
+    -1px 1px 0 var(--passive-color),
+    1px 1px 0 var(--passive-color);
+  letter-spacing: 1.6px;
+}
+
+.polaroid-absolute {
+  width: 12.2445vw;
+  height: 15vw;
+  background-color: var(--passive-color);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1vw;
+}
+
+.polaroid-absolute:nth-of-type(1) {
+  z-index: 1;
+  rotate: -5.94deg;
+  left: 15%;
+  top: 0;
+}
+
+.polaroid-absolute:nth-of-type(2) {
+  rotate: 9.33deg;
+  right: 15%;
+  top: 15%;
+}
+
+.polaroid-relative {
+  width: 200.97px;
+  height: 253.07px;
+  background-color: var(--passive-color);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+  rotate: -5.94deg;
+}
+
+.member-card {
+  min-width: 524.07px;
+  padding: 28px 13px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.service-content {
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 4px 10px 0;
+  height: auto;
 }
