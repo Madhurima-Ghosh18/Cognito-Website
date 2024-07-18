@@ -60,6 +60,12 @@ hr {
   height: 50px !important;
 }
 
+button.rounded {
+  border-radius: 50px !important;
+  font-size: 14px !important;
+}
+
+
 header {
   height: 80px;
 }
@@ -206,4 +212,22 @@ footer a {
   border-radius: 20px;
   padding: 4px 10px 0;
   height: auto;
+}
+
+.prod-card {
+  width: 45%;
+  border-radius: 20px; 
+  box-shadow : 0 4px 4px gray;
+  min-width : 360px !important;
+  flex-grow: 1 !important;
+}
+
+@media only screen and (width <= 963.44px) {
+  .prod-card h2, .prod-card i {
+    font-size: 14px !important;
+  }
+  
+  .prod-card p {
+    font-size: 10px !important;
+  }
 }
