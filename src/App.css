@@ -60,6 +60,15 @@ hr {
   height: 50px !important;
 }
 
+<<<<<<< HEAD
+=======
+button.rounded {
+  border-radius: 50px !important;
+  font-size: 14px !important;
+}
+
+
+>>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
 header {
   height: 80px;
 }
@@ -206,4 +215,25 @@ footer a {
   border-radius: 20px;
   padding: 4px 10px 0;
   height: auto;
+<<<<<<< HEAD
+=======
+}
+
+.prod-card {
+  width: 45%;
+  border-radius: 20px; 
+  box-shadow : 0 4px 4px gray;
+  min-width : 360px !important;
+  flex-grow: 1 !important;
+}
+
+@media only screen and (width <= 963.44px) {
+  .prod-card h2, .prod-card i {
+    font-size: 14px !important;
+  }
+  
+  .prod-card p {
+    font-size: 10px !important;
+  }
+>>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
 }

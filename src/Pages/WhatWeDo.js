@@ -1,6 +1,10 @@
 import PageTitle from "../Components/PageTitle";
 import Section from "../Components/Section";
 import Description from "../Components/Description";
+<<<<<<< HEAD
+=======
+import { Button } from "react-bootstrap";
+>>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
 
 const WhatWeDo = () => {
     return (<>
@@ -48,7 +52,11 @@ const WhatWeDo = () => {
                 { "icon": "fa-solid fa-cloud", "header": "Deployment Options", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
             ]} />
         </Section>
+<<<<<<< HEAD
         
+=======
+        <div className="w-100 d-flex py-5"><a className="mx-auto" href="/error"><Button variant="dark">Get a Free Consultation{" "}<i className="fa-solid fa-user-check"></i></Button></a></div>
+>>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
 
     </>);
 }

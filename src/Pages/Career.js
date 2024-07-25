@@ -1,4 +1,5 @@
 import PageTitle from "../Components/PageTitle";
+<<<<<<< HEAD
 import Section from "../Components/Section";
 import Description from "../Components/Description";
 import HrScroller from "../Components/HrScroller";
@@ -37,4 +38,13 @@ const Career = () => {
     );
 }
  
+=======
+const Career = () => {
+    return (<>
+        <PageTitle title={"Career"} />
+        Career
+    </>);
+}
+
+>>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
 export default Career;

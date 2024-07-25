@@ -9,7 +9,10 @@ import Career from './Pages/Career';
 import Product from './Pages/Product';
 import Layout from './Components/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
+<<<<<<< HEAD
 import 'leaflet/dist/leaflet.css';
+=======
+>>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
 
 function App() {
   return (
