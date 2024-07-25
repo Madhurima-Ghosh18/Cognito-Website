@@ -8,10 +8,10 @@ import { Button } from "react-bootstrap";
 import Roles from "../Components/Roles";
 const Career = () => {
     return ( <><PageTitle title={"Career"}/>
-    <Section ID={"career"} header={"Contact Us"}>
+    <Section ID={"career"} header={"Why Work With Us"}>
             <Description img={"/Career/culture.png"} lists={[
                 { "icon": "fa-solid fa-clipboard", "header": "Our Company Culture", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
-                { "icon": "fa-solid fa-hands-holding", "header": "Our Values", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
+                { "icon": "fa-solid fa-scale-unbalanced-flip", "header": "Our Values", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
                 { "icon": "fa-solid fa-hands-holding", "header": "Benefits of Working With Us", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
                 ]} />
         </Section>
