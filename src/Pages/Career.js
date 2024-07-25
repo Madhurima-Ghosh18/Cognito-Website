@@ -1,10 +1,11 @@
 import PageTitle from "../Components/PageTitle";
-<<<<<<< HEAD
+
 import Section from "../Components/Section";
 import Description from "../Components/Description";
 import HrScroller from "../Components/HrScroller";
 import Testimonial from "../Components/Testimonial";
 import { Button } from "react-bootstrap";
+import Roles from "../Components/Roles";
 const Career = () => {
     return ( <><PageTitle title={"Career"}/>
     <Section ID={"career"} header={"Contact Us"}>
@@ -15,11 +16,13 @@ const Career = () => {
                 ]} />
         </Section>
         <Section ID={"career"} header={"Opportunities For You"}>
-            <Description lists={[
-                { "icon": "fa-solid fa-clipboard", "header": "Our Company Culture", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
-                { "icon": "fa-solid fa-hands-holding", "header": "Our Values", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
-                { "icon": "fa-solid fa-pen-to-square", "header": "Benefits of Working With Us", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus." },
-            ]} />
+       <div className="w-100 d-flex flex-wrap py-3 justify-content-center gap-3">
+       <Roles header="Job Role" description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus."} link1={"/error"} link2={"/error"} img={"/Career/Image.png"}/>
+       <Roles header="Job Role" description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus."} link1={"/error"} link2={"/error"} img={"/Career/Image.png"}/>
+       <Roles header="Job Role" description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus."} link1={"/error"} link2={"/error"} img={"/Career/Image.png"}/>
+          
+       </div>
+
         </Section>
         <Section ID={"employees"} header={"Employee Testimonials"}>
             <HrScroller>
@@ -38,13 +41,8 @@ const Career = () => {
     );
 }
  
-=======
-const Career = () => {
-    return (<>
-        <PageTitle title={"Career"} />
-        Career
-    </>);
-}
 
->>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
+
+
+
 export default Career;

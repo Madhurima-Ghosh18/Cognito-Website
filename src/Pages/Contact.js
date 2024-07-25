@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-import React from 'react';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import Section from "../Components/Section";
-
+import { Row,Col,Button,Form,Container } from 'react-bootstrap';
 
 const Contact = () => {
     return (
@@ -66,12 +63,7 @@ const Contact = () => {
 );
 };
 
-=======
-import PageTitle from "../Components/PageTitle";
 
-const Contact = () => {
-    return ( <><PageTitle title={"Contact Us"}/>Contact</> );
-}
- 
->>>>>>> bc07a2be9149ceb1c74de82ee51ba7a620e25980
+
+
 export default Contact;
