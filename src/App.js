@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+    <main>
       <Routes>
         <Route path="/" element={<Layout />} >
           <Route index path="/" element={<Navigate to="/home"/>}/>
@@ -29,6 +30,7 @@ function App() {
           <Route path="*" element={<PageNotFound />}/>
         </Route>
       </Routes>
+  </main>
       </BrowserRouter>
     </div>
   );
