@@ -16,7 +16,7 @@ const WhatWeDo = () => {
                 </div>
                 <div className="text-content w-50 flex-shrink-1">
                     <p style={{ fontSize: "1.5vw" }}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus. Cras accumsan viverra arcu quis posuere. Vestibulum ut ligula nec eros cursus euismod viverra a enim. Phasellus cursus, elit id elementum faucibus, justo felis euismod orci, sit amet aliquam quam augue at quam. Nulla vitae ante venenatis, pellentesque leo vitae, pulvinar lorem. Suspendisse sit amet sem et ligula gravida fermentum nec in nibh. Praesent sed ligula erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus. Cras accumsan viverra.
+                    Cognito Technologies is an innovative IT startup founded in April 2024 by two experienced IT veterans. The company focuses on developing socio-technical products that enhance human interactions and well-being. Our portfolio includes solutions such as MindEase for mental health, MindCare for Internet of Medical Things (IoMT), and advanced social media automation tools. By leveraging cutting-edge technologies like AI and IoMT, Cognito Technologies aims to create impactful solutions that address the evolving needs of society.
                     </p>
                 </div>
             </div>
