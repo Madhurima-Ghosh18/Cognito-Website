@@ -36,7 +36,13 @@ const Home = () => {
                     <div className="text-content w-50">
                         <p style={{
                             fontSize: "1.5vw",
-                        }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero. Nam ante velit, pulvinar non sagittis nec, varius ultricies lacus. Cras accumsan viverra arcu quis posuere. Vestibulum ut ligula nec eros cursus euismod viverra a enim. Phasellus cursus, elit id elementum faucibus, justo felis euismod orci, sit amet aliquam quam augue at quam. Nulla vitae ante venenatis, pellentesque leo vitae, pulvinar lorem. Suspendisse sit amet sem et ligula gravida fermentum nec in nibh. Praesent sed ligula erat.<strong> Founded by IT veterans with a vision to revolutionize socio-technical interactions.</strong></p>
+                        }}>Foundation and Founders: Cognito Technologies was established in April 2024 by two experienced IT veterans, bringing a wealth of knowledge and expertise to the startup.<br/><br/>
+
+                        Core Focus: The company specializes in the development of socio-technical products, integrating advanced technologies to create solutions that enhance social and technical interactions.<br/><br/>
+                        
+                        Cutting-Edge Technologies: Cognito Technologies is dedicated to leveraging the latest advancements in technology, ensuring that their products are innovative and at the forefront of the industry.<br/><br/>
+                        
+                        Growth and Innovation:With a strong foundation and a clear focus, Cognito Technologies is poised for rapid growth and continuous innovation in the socio-technical domain.</p>
                     </div>
                 </div>
             </Section>
