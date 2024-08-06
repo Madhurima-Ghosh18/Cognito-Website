@@ -53,7 +53,7 @@ const Contact = () => {
           </MapContainer>
           <div className="mt-3">
             <p><strong>Company Address:</strong> lorem ipsum dolor, address line abc-road, atown, kolkata-75125221</p>
-            <p><strong>Company Email ID:</strong> example@example.com</p>
+            <p><strong>Company Email ID:</strong>mail@cognitotechnologies.com</p>
             <p><strong>Company Contact No.:</strong> xxxx-xxxx-xx</p>
           </div>
         </Col>
