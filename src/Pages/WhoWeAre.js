@@ -29,14 +29,14 @@ const WhoWeAre = () => {
                     img={"/WhoWeAre/mission.png"}
                     alt={"mission"}
                     header={"Mission"}
-                    desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero."}
+                    desc={"Our mission is to bridge the gap between society and technology by creating innovative solutions that enhance the quality of life and improve everyday interactions. We strive to empower individuals and communities through advanced technological products that address mental health, healthcare connectivity, and efficient digital communication."}
                     hdsize={"24px"}
                 />
                 <Item
                     img={"/WhoWeAre/vision.png"}
                     alt={"vision"}
                     header={"Vision"}
-                    desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum, ex a semper auctor, elit tortor consequat lectus, non rhoncus mauris purus eu libero."}
+                    desc={"Our vision is to become a leading provider of socio-technical solutions that transform the way people live, communicate, and manage their well-being. We aim to be at the forefront of technological innovation, continually developing products that integrate seamlessly into daily life and contribute to a healthier, more connected world."}
                     hdsize={"24px"}
                 />
                 <Item
